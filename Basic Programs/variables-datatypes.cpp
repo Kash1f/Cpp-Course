@@ -6,4 +6,7 @@ int main(){
     int a = 123;
     cout<<  a << endl;
 
+    char b = 'a';
+    cout << b << endl;
+
 }
