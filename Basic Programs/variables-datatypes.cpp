@@ -7,15 +7,15 @@ int main()
     int a = 123;
     cout << a << endl;
 
-    char b = 'a';
-    cout << b << endl;
-
-    bool c = true;
+    char c = 'a';
     cout << c << endl;
 
-    float d = 1.2;
-    cout << d << endl;
+    bool bl = true;
+    cout << bl << endl;
 
-    double e = 1.23;
-    cout << e << endl;
+    float f = 1.2;
+    cout << f << endl;
+
+    double d = 1.23;
+    cout << d << endl;
 }
