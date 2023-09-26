@@ -10,12 +10,12 @@ int main()
     char b = 'a';
     cout << b << endl;
 
-    bool b = 'a';
-    cout << b << endl;
+    bool c = true;
+    cout << c << endl;
 
-    float b = 'a';
-    cout << b << endl;
+    float d = 1.2;
+    cout << d << endl;
 
-    char b = 'a';
-    cout << b << endl;
+    double e = 1.23;
+    cout << e << endl;
 }
