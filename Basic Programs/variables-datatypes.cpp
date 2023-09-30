@@ -16,8 +16,8 @@ int main()
     int abc = 123;            // 4 bytes = 32 bits of memory
     cout << abc << endl;
 
-    char c = 'a';           // 1 byte =8 bits of memory
-    cout << c << endl;
+    char a = 'a';           // 1 byte =8 bits of memory
+    cout << a << endl;
 
     bool bl = true;         // 1 bit of memory
     cout << bl << endl;
