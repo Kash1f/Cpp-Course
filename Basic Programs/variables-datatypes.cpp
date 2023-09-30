@@ -13,8 +13,8 @@ int main()
     // abc1
     // _abc1
     
-    int a = 123;            // 4 bytes = 32 bits of memory
-    cout << a << endl;
+    int abc = 123;            // 4 bytes = 32 bits of memory
+    cout << abc << endl;
 
     char c = 'a';           // 1 byte =8 bits of memory
     cout << c << endl;
