@@ -22,10 +22,10 @@ int main()
     bool bl = true;         // 1 bit of memory
     cout << bl << endl;
 
-    float f = 1.2;          // 8 bytes = 64 bits of memory
+    float f = 2.2;          // 8 bytes = 64 bits of memory
     cout << f << endl;
 
-    double d = 1.23;        // 8 bytes = 64 bits of memory
+    double d = 2.23;        // 8 bytes = 64 bits of memory
     cout << d << endl;
 
     int size = sizeof(a);   //size of tells the size of the datatype that is being occupied
