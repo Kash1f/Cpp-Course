@@ -31,7 +31,7 @@ int main()
     int size = sizeof(a);   //size of tells the size of the datatype that is being occupied
                             //on the memory 
 
-    cout << "Size of a is: " << size << endl;
+    cout << "Size of a is: " << size << endl; //string
 
 
 
