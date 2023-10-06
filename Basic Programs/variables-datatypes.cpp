@@ -16,8 +16,8 @@ int main()
     int abc = 123;            // 4 bytes = 32 bits of memory
     cout << abc << endl;
 
-    char a = 'a';           // 1 byte =8 bits of memory
-    cout << a << endl;
+    char b = 'b';           // 1 byte =8 bits of memory
+    cout << b << endl;
 
     bool bl = true;         // 1 bit of memory
     cout << bl << endl;
@@ -28,12 +28,13 @@ int main()
     double d = 2.23;        // 8 bytes = 64 bits of memory
     cout << d << endl;
 
-    int size = sizeof(a);   //size of tells the size of the datatype that is being occupied
+    int size = sizeof(b);   //size of tells the size of the datatype that is being occupied
                             //on the memory 
 
     cout << "Size of a is: " << size << endl; //string
 
-
+    int a = 'a';
+    cout << a << endl;
 
 
 }
