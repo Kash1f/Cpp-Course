@@ -50,6 +50,8 @@ int main()
     int ab = 2.0/5;
     cout << ab << endl;
 
-    int 
+    float abc = 2.0/5;
+    cout << abc << endl;
+    
  
 }
