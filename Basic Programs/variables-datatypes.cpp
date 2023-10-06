@@ -44,14 +44,17 @@ int main()
 */
     
 
-    int a = 2/5;
+    int a = 2/5;  //output will be an int i.e 0 and not 0.4 which is the correct answer becasue int/int = int
     cout << a << endl;
 
-    int ab = 2.0/5;
+    int ab = 2.0/5;    //output will be an int because the var is initialized with int
     cout << ab << endl;
 
-    float abc = 2.0/5;
+    float abc = 2.0/5; //the ans will be float value 0.4(right ans) since float/int = float
     cout << abc << endl;
+
+    double abcd = 2.0/5; //same ans as with float as double/int = double
+    cout << abcd << endl;
     
  
 }
