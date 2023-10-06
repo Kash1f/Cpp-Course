@@ -39,5 +39,8 @@ int main()
     char ch = 98;
     cout << ch << endl;
 
+    int a = 2/5;
+    cout << a << enld;
+
 
 }
