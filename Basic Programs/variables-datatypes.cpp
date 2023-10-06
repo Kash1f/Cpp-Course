@@ -12,6 +12,8 @@ int main()
     // 1abc
     // abc1
     // _abc1
+
+    /* 
     
     int abc = 123;            // 4 bytes = 32 bits of memory
     cout << abc << endl;
@@ -39,8 +41,15 @@ int main()
     char ch = 98;
     cout << ch << endl;
 
+*/
+    
+
     int a = 2/5;
-    cout << a << enld;
+    cout << a << endl;
 
+    int ab = 2.0/5;
+    cout << ab << endl;
 
+    int 
+ 
 }
