@@ -55,6 +55,8 @@ int main()
 
     double abcd = 2.0/5; //same ans as with float as double/int = double
     cout << abcd << endl;
+
+    int a_a = 10/5;
+    cout << a_a << endl;  
     
- 
 }
