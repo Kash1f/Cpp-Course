@@ -34,7 +34,7 @@ int main()
 
     //NOT operator:
 
-    int a = 24;
+    int a = 25;
     cout << !a << endl;
 
     int b = 0;
