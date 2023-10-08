@@ -15,6 +15,12 @@ int main()
    //    cout << "A is negative" << endl;
    // }
 
+
+
+//PROGRAM TO CHECK WHICH NUMBER IS GREATER
+
+ /*
+
    int a, b; // initializing the variables
 
    cout << "Enter the value of a: " << endl;
@@ -34,4 +40,33 @@ int main()
    {
       cout << "B is greater" << endl;
    }
+*/
+
+//PROGRAM TO CHECK IF A IS POSITIVE, NEGATIVE OR 0
+
+   int a;
+
+   cout << "Enter the value of a: " << endl;
+   cin >> a;
+
+   if (a > 0){
+      cout << " A is positive" << endl;
+   } 
+   else if ( a < 0) {
+       cout << " A is negative" << endl;
+   } else{
+       cout << " A is 0" << endl;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
 }
