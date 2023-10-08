@@ -3,10 +3,30 @@ using namespace std;
 
 int main(){
    
-   int n;
+   // int a;   //intializing the variable
 
-   cin >> n;
-   cout << n << endl;
+   // cout << "Enter a value: ";  
+   // cin >> a;                     //taking input
 
-   
+   // if (a > 0){
+   //    cout << "A is positive" << endl;
+   // } else {
+   //    cout << "A is negative" << endl;
+   // }
+
+   int a,b;
+
+   cin >> a >> b ;
+
+   cout << "value of a and b is " << a << " " << b << endl;
+
+
+
+
+
+
+
+
+
+
 }
