@@ -44,15 +44,15 @@ int main()
 
 //PROGRAM TO CHECK IF A IS POSITIVE, NEGATIVE OR 0
 
-   int a;
+   int b;
 
-   cout << "Enter the value of a: " << endl;
-   cin >> a;
+   cout << "Enter the value of b: " << endl;
+   cin >> b;
 
-   if (a > 0){
+   if (b > 0){
       cout << " A is positive" << endl;
    } 
-   else if ( a < 0) {
+   else if ( b < 0) {
        cout << " A is negative" << endl;
    } else{
        cout << " A is 0" << endl;
