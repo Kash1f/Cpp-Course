@@ -59,6 +59,23 @@ int main()
    }
 
 
+   int a,c;
+
+   cout << "Enter the value of a: " << endl;
+   cin >> a;
+
+   cout << "Enter the value of c: " << endl;
+   cin >> c;
+
+
+   if (a > c){
+      cout << "A is greater" << endl;
+   } else if (c > a){
+      cout << "C is greater" << endl;
+   } else if (a && c ==0){
+      cout << "A and B is equal to zero" << endl;
+   }
+
 
 
 
