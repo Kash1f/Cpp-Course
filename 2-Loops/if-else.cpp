@@ -73,7 +73,7 @@ int main()
    } else if (c > a){
       cout << "C is greater" << endl;
    } else {
-      cout << "A and B is equal to zero" << endl;
+      cout << "A and B are equal to zero" << endl;
    }
 
 
