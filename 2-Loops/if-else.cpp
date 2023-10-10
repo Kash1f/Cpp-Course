@@ -58,7 +58,7 @@ int main()
        cout << " A is 0" << endl;
    }
 
-
+//with two variables
    int a,c;
 
    cout << "Enter the value of a: " << endl;
@@ -76,7 +76,20 @@ int main()
       cout << "A and B are equal to zero" << endl;
    }
 
+//homework -> output questions
 
+   int a = 9;
+   if (a == 9) {
+      cout << "NINEY" << endl;
+   }
+
+   if ( a > 0) {
+      cout << "POSITIVE" << endl;
+   }
+
+   else{
+      cout << "NEGATIVE" << endl;
+   }
 
 
 
