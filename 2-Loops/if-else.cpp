@@ -104,6 +104,26 @@ int main()
       cout << a_2 << endl;
    }
 
+//q3-output
+
+   int a_3 = 24;
+
+   if (a_3 > 25){
+      cout << "Love" <<endl;
+   }
+   else if (a_3 == 24){
+      cout << "Lovely" <<endl;
+   }
+
+   else {
+      cout << "Babbar" << endl;
+   }
+
+
+
+
+
+
 
 
 
