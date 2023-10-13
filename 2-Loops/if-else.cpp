@@ -78,48 +78,62 @@ int main()
 
 //homework -> output questions
 
-   int a = 9;
-   if (a == 9) {
-      cout << "NINEY" << endl;
+//    int a = 9;
+//    if (a == 9) {
+//       cout << "NINEY" << endl;
+//    }
+
+//    if ( a > 0) {
+//       cout << "POSITIVE" << endl;
+//    }
+
+//    else{
+//       cout << "NEGATIVE" << endl;
+//    }
+
+// //q2 -> output
+
+//    int a_2 = 4;
+//    int b = a+1;
+
+//    if((a=3)==b) {
+//       cout << a_2 << endl;
+//    }
+
+//    else {
+//       cout << a_2 << endl;
+//    }
+
+// //q3-output
+
+//    int a_3 = 24;
+
+//    if (a_3 > 25){
+//       cout << "Love" <<endl;
+//    }
+//    else if (a_3 == 24){
+//       cout << "Lovely" <<endl;
+//    }
+
+//    else {
+//       cout << "Babbar" << endl;
+//    }
+
+   char ch;
+
+   cout << "Enter a character: " << endl;
+
+   cin >> ch;
+
+   if (ch >='a' && ch <= 'z'){
+      cout << "This is lower case" << endl;
    }
-
-   if ( a > 0) {
-      cout << "POSITIVE" << endl;
+   else if (ch>='A' && ch <= 'Z'){
+      cout << "This is Upper case" << endl;
    }
-
-   else{
-      cout << "NEGATIVE" << endl;
+   else if (ch >='0' && ch <= '9'){
+      cout << "This is is numeric" << endl;
    }
-
-//q2 -> output
-
-   int a_2 = 4;
-   int b = a+1;
-
-   if((a=3)==b) {
-      cout << a_2 << endl;
-   }
-
-   else {
-      cout << a_2 << endl;
-   }
-
-//q3-output
-
-   int a_3 = 24;
-
-   if (a_3 > 25){
-      cout << "Love" <<endl;
-   }
-   else if (a_3 == 24){
-      cout << "Lovely" <<endl;
-   }
-
-   else {
-      cout << "Babbar" << endl;
-   }
-
-
 
 
 
