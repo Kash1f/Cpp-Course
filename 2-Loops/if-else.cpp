@@ -137,11 +137,25 @@ int main()
 
 
 
+   //  int a = 'a';
+   //  cout << a << endl;
+
+   //  char chc = 98;
+   //  cout << chc << endl;
 
 
+   int n;
 
+   cout << " Enter your number: " << endl;
 
+   cin >> n;
 
+   int i=1;
+   while (i<=n){
+      cout << "The value of i is: " << i << endl;
+      i = i + 1;
+   }
+ 
 
 
 }
