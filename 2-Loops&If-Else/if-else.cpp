@@ -119,21 +119,21 @@ int main()
 //       cout << "Babbar" << endl;
 //    }
 
-   char ch;
+   // char ch;
 
-   cout << "Enter a character: " << endl;
+   // cout << "Enter a character: " << endl;
 
-   cin >> ch;
+   // cin >> ch;
 
-   if (ch >='a' && ch <= 'z'){
-      cout << "This is lower case" << endl;
-   }
-   else if (ch>='A' && ch <= 'Z'){
-      cout << "This is Upper case" << endl;
-   }
-   else if (ch >='0' && ch <= '9'){
-      cout << "This is is numeric" << endl;
-   }
+   // if (ch >='a' && ch <= 'z'){
+   //    cout << "This is lower case" << endl;
+   // }
+   // else if (ch>='A' && ch <= 'Z'){
+   //    cout << "This is Upper case" << endl;
+   // }
+   // else if (ch >='0' && ch <= '9'){
+   //    cout << "This is is numeric" << endl;
+   // }
 
 
 
@@ -144,18 +144,41 @@ int main()
    //  cout << chc << endl;
 
 
+   // int n;
+
+   // cout << " Enter your number: " << endl;
+
+   // cin >> n;
+
+   // int i=1;
+   // while (i<=n){
+   //    cout << "The value of i is: " << i << endl;
+   //    i = i + 1;
+   // }
+ 
    int n;
 
-   cout << " Enter your number: " << endl;
+   cout << "Enter a Number: " << endl;
 
-   cin >> n;
+   cin>> n;
 
-   int i=1;
+   int i = 1;
+   int sum = 0;
+
    while (i<=n){
-      cout << "The value of i is: " << i << endl;
+      sum = sum + i;
       i = i + 1;
+      cout << "The value of sum is: "<< sum  << endl;
+      
    }
- 
+
+
+
+
+
+
+
+
 
 
 }
