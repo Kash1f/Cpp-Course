@@ -146,14 +146,16 @@ int main()
 
    // int n;
 
-   // cout << " Enter your number: " << endl;
+   // cout << "Enter your number: " << endl;
 
    // cin >> n;
 
    // int i=1;
    // while (i<=n){
+     
    //    cout << "The value of i is: " << i << endl;
-   //    i = i + 1;
+   //      i = i + 1;
+     
    // }
  
    int n;
@@ -165,9 +167,9 @@ int main()
    int i = 1;
    int sum = 0;
 
-   while (i<=n){
+   while (i <= n){
       sum = sum + i;
-      i = i + 1;
+      i = i + 2;
       cout << "The value of sum is: "<< sum  << endl;
       
    }
