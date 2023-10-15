@@ -3,6 +3,8 @@
  
  int main(){
 
+
+//Q1
     int n;
     
     cout << "Enter a value: " << endl; 
@@ -15,7 +17,7 @@
 
     }
 
-
+//Q2
 
 
    
