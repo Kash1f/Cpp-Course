@@ -19,6 +19,16 @@
 
 //Q2
 
+     int n;
+    
+    cout << "Enter a value: " << endl; 
 
+    cin >> n;
+    int i = 1;
+
+
+    while(i<=n){
+
+    }
    
  }
