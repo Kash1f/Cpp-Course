@@ -59,4 +59,20 @@ int main()
     int a_a = 10/5;
     cout << a_a << endl;  
     
+
+    string fullName;
+
+    cout << "My fullname is: " << endl;
+
+    getline(cin, fullName);
+
+    cout << "My fullname is: " << fullName << endl;
+
+
+
+
+
+
+
+
 }
