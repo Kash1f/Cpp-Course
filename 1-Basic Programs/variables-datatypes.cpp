@@ -64,6 +64,8 @@ int main()
 
     cout << "My fullname is: " << endl;
 
+    // cin>> fullName; //this won't print fullName as it takes only firstname as an input
+
     getline(cin, fullName);   //here the fullname will be printed since we used getline
 
     cout << "My fullname is: " << fullName << endl;
