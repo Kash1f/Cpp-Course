@@ -16,13 +16,12 @@ int power(int a, int b)
     return ans;
 }
 
-int main()
-{
+int main(){
 
     int a, b;
     cin >> a >> b;
 
-    power(a, b);
+    int answer = power(a,b);
 
     return 0;
 }
