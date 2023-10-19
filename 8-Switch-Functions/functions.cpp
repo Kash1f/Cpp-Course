@@ -11,17 +11,25 @@ int power(int a, int b)
         ans = ans * a;
     }
 
-    cout << "Answer is: " << ans << endl;
+    // cout << "Answer is: " << ans << endl;
 
     return ans;
 }
 
-int main(){
+int main()
+{
 
     int a, b;
     cin >> a >> b;
 
-    int answer = power(a,b);
+    int answer = power(a, b);
+    cout << "Answer is: " << answer << endl;
+
+    int c, d;
+    cin >> c >> d;
+
+    int answer2 = power(c, d);
+    cout << "Answer is: " << answer2 << endl;
 
     return 0;
 }
