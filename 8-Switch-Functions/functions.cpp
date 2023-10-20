@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int power(int num1, int num2)
+int power(int a, int b)
 {
 
     //int a,b;
     //cin >> a >> b;
     int ans = 1;
 
-    for (int i = 1; i <= num2; i++)
+    for (int i = 1; i <= b; i++)
     {
-        ans = ans * num1;
+        ans = ans * a;
     }
 
     // cout << "Answer is: " << ans << endl;
@@ -18,12 +18,10 @@ int power(int num1, int num2)
     return ans;
 }
 
-int main()
-{
+int main(){
 
     //  int answer = power();
     // cout << "Answer is: " << answer << endl;
-
 
     int a, b;
     cin >> a >> b;
