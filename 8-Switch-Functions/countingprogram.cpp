@@ -2,10 +2,10 @@
 using namespace std;
 
 //Function Signature(int,void etc)
-void printCounting(int n){
+void printCounting(int num){
 
     //Function Body
-    for (int i = 1; i <= n; i++){
+    for (int i = 1; i <= num; i++){
         cout << i << " " << endl;
     }
 }
