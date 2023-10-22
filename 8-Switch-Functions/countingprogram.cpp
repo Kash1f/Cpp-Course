@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 
+//Function Signature(int,void etc)
 void printCounting(int n){
+
+    //Function Body
     for (int i = 1; i <= n; i++){
         cout << i << " " << endl;
     }
@@ -9,10 +12,11 @@ void printCounting(int n){
 
 int main(){
 
-    int n;
+    int a;
 
-    cin>> n;
+    cin>> a;
 
-    printCounting(n);
+    //function call
+    printCounting(a);
 
 }
