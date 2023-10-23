@@ -4,7 +4,7 @@ using namespace std;
 //Function Signature(int,void etc)
 void dummy(int n){
 
-    n++;
+    n++; //incrementing the value but it will be different as its a copy value
     cout << "n is: " << n << endl;
 
     // return; return is not needed since the function is void which means that it will not
