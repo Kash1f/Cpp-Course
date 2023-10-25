@@ -13,40 +13,40 @@ int main()
     // accessing an array
     //  cout << "Value at index number: " << number[14] << endl;
 
-    // intializing an array
+    /////// intializing an array
 
     int second[3] = {5, 7, 11};
 
     cout << "The value of the 2nd index is: " << second[2] << endl;
 
-    // printing an array
+    ///////printing an array
 
     int third[15] = {2, 7}; // initializing an array
 
-    int n = 15; // declaring a var to use it with loop to print all array values
+    int a = 15; // declaring a var to use it with loop to print all array values
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < a; i++)
     { // i=0 bcz array starts from 0 till n-1(0-15) here
         cout << third[i] << " ";
     }
 
-    // initializng all locations with 0
+    /////// initializng all locations with 0
 
     int fourth[10] = {0};
 
-    int n = 10;
+    int b = 10;
 
-    for (int i = 0; i < n; i++){ // i=0 bcz array starts from 0 till n-1(0-15) here
+    for (int i = 0; i < b; i++){ // i=0 bcz array starts from 0 till n-1(0-15) here
         cout << fourth[i] << " ";
     }
 
-    //initializng all locations with 1
+    //////initializng all locations with 1(not possible with below line)
 
     int fifth[10] = {1};
 
-    int n = 10;
+    int c = 10;
 
-    for (int i = 0; i < n; i++) {  // i=0 bcz array starts from 0 till n-1(0-15) here
+    for (int i = 0; i < c; i++) {  // i=0 bcz array starts from 0 till n-1(0-15) here
         cout << fifth[i] << " ";
     }
 
