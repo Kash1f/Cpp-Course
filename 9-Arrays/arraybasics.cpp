@@ -36,8 +36,7 @@ int main()
 
     int n = 10;
 
-    for (int i = 0; i < n; i++)
-    { // i=0 bcz array starts from 0 till n-1(0-15) here
+    for (int i = 0; i < n; i++){ // i=0 bcz array starts from 0 till n-1(0-15) here
         cout << fourth[i] << " ";
     }
 
@@ -47,7 +46,7 @@ int main()
 
     int n = 10;
 
-    for (int i = 0; i < n; i++) {         // i=0 bcz array starts from 0 till n-1(0-15) here
+    for (int i = 0; i < n; i++) {  // i=0 bcz array starts from 0 till n-1(0-15) here
         cout << fifth[i] << " ";
     }
 
