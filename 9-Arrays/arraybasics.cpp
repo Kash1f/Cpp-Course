@@ -51,8 +51,14 @@ int main()
     }
 
 
+    //array of a character 
 
 
+
+
+
+
+    cout << "Everything is fine" << endl;       
 
     return 0;
 

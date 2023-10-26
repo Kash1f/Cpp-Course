@@ -22,13 +22,15 @@ int main()
 
     cout << "Size of fourth is: " << fourthSize << endl;
 
+    //------------------------------------------------------//
+
     int third[15] = {2, 7};
 
     printArray(third, 15);
 
-    int thirdSize = sizeof(fourth) / sizeof(int);
+    int thirdSize = sizeof(third) / sizeof(int);
 
-    cout << "Size of third is: " << fourthSize << endl;
+    cout << "Size of third is: " << thirdSize << endl;
 
     return 0;
 }
