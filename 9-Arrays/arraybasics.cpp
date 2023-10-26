@@ -53,7 +53,13 @@ int main()
 
     //array of a character 
 
+    char ch[5] = {'a','b','c','d','e'};
+    cout << ch[3] << endl;
 
+
+      for (int i = 0; i < 5; i++) {   //looping through characters
+        cout << ch[i] << " ";
+    }
 
 
 
