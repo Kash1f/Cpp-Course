@@ -18,6 +18,8 @@ int main()
     // int n = 4;
     printArray(fourth, 10);
 
+    //-----------------------------------------------------//
+
     int fourthSize = sizeof(fourth) / sizeof(int);
 
     cout << "Size of fourth is: " << fourthSize << endl;

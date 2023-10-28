@@ -53,7 +53,7 @@ int main()
 
     //array of a character 
 
-    char ch[5] = {'a','b','c','d','e'};
+    char ch[5] = {'a','b','c','r','p'};
     cout << ch[3] << endl;
 
 
