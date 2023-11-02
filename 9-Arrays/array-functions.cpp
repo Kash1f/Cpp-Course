@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printArray(int arr[15], int size)
+void printArray(int arr[], int size)
 {
 
     for (int i = 0; i < size; i++)
