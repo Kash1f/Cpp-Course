@@ -12,6 +12,7 @@ int main(){
     // int *b;
 
     // a=3; 
+    
     // b=&a;
 
     cout << "The address of a is: " << &a << endl;
