@@ -36,4 +36,5 @@ int main()
     int *p = marks;
 
     cout << "The value of marks is: " << *p << endl;
+    cout << "The value of marks is: " << *(p+1) << endl;
 }
