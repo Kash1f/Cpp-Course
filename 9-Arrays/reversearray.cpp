@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 
-vod reverse
+void reverse(){
+    
+}
 
 
 

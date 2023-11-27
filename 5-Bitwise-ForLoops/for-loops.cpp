@@ -7,7 +7,7 @@ int main(){
 
     cout << "Enter the value of n: " << endl;
 
-    cin>>  n;
+    cin>> n;
 
     cout << "Printing the values from 1 to n" << endl;
 
