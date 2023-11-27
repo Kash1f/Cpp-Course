@@ -30,7 +30,7 @@ int main()
 
     printArray(third, 15);
 
-    int thirdSize = sizeof(third) / sizeof(int);
+    int thirdSize = sizeof(third) / sizeof(int); //sizeof
 
     cout << "Size of third is: " << thirdSize << endl;
 
